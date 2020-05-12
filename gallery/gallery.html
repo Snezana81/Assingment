@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Gallery</title>
+    <style>
+        h1,
+        p {
+            max-width: 960px;
+            width: 90%;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        #tile-container {
+            max-width: 960px;
+            width: 90%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 8px;
+
+        }
+        .column {
+            text-align: center;
+            
+        }
+        
+        .tile {
+            width: 200px;
+            height: 150px;
+            border-radius: 8px;
+            margin: 15px;
+            
+            
+
+            background-position: center;
+            background-size: 250px;
+ }
+
+        #tile-1 {
+            background-image: url("placeholder-image.png");
+            background-color: deepskyblue;
+
+        }
+
+        #tile-2 {
+            background-image: url("placeholder-image.png");
+            background-color: deepskyblue;
+        }
+
+        #tile-3 {
+            background-image: url("placeholder-image.png");
+            background-color: deepskyblue;
+        }
+
+        #tile-4 {
+            background-image: url("placeholder-image.png");
+            background-color: deepskyblue;
+        }
+
+        #tile-5 {
+            background-image: url("placeholder-image.png");
+            background-color: deepskyblue;
+        }
+
+        #tile-6 {
+            background-image: url("placeholder-image.png");
+            background-color: deepskyblue;
+        }
+
+        #tile-7 {
+            background-image: url("placeholder-image.png");
+            background-color: deepskyblue;
+        }
+
+        #tile-8 {
+            background-image: url("placeholder-image.png");
+            background-color: deepskyblue;
+        }
+
+        #tile-9 {
+            background-image: url("placeholder-image.png");
+            background-color: deepskyblue;
+        }
+
+        #tile-10 {
+            background-image: url("placeholder-image.png");
+            background-color: deepskyblue;
+        }
+
+        @media screen and (max-width: 1025px) {
+            #tile-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+        }
+
+        @media screen and (max-width: 767px) {
+            #tile-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
+
+        @media screen and (max-width: 414px) {
+            #tile-container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Gallery Heading</h1>
+    <div id="tile-container">
+        <div class="column">
+        <div class="tile" id="tile-1"></div>
+        <span>Image title</span></div>
+        <div class="column">
+        <div class="tile" id="tile-2"></div>
+        <span>Image title</span></div>
+        <div class="column">
+        <div class="tile" id="tile-3"></div>
+        <span>Image title</span></div>
+        <div class="column"> 
+        <div class="tile" id="tile-4"></div>
+        <span>Image title</span></div>
+        <div class="column">
+        <div class="tile" id="tile-5"></div>
+        <span>Image title</span></div>
+        <div class="column">
+        <div class="tile" id="tile-6"></div>
+        <span>Image title</span></div>
+        <div class="column">
+        <div class="tile" id="tile-7"></div>
+        <span>Image title</span></div>
+        <div class="column">
+        <div class="tile" id="tile-8"></div>
+        <span>Image title</span></div>
+        <div class="column">
+        <div class="tile" id="tile-9"></div>
+        <span>Image title</span></div>
+        <div class="column">
+        <div class="tile" id="tile-10"></div>
+        <span>Image title</span></div>
+        
+    
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.
+        Fusce posuere, magna sed pulvinar ultricies,
+        purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+        Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+        ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.Nunc ornare
+        lectus porta sapien viverra, vitae porttitor quam tristique. Fusce
+        consectetur lorem et nulla interdum volutpat. Fusce porttitor tellus non
+        elit pharetra dapibus. Donec a sem est. Morbi sed dui eros. Suspendisse
+        porta eget ligula commodo sollicitudin. Donec commodo, odio sed efficitur
+        pharetra, est sem auctor sem, et ornare nunc enim in enim. Sed vel rhoncus
+        elit. Nulla elit odio, dictum at mi nec, malesuada dapibus velit.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Fusce massa felis, pellentesque a luctus at,
+        suscipit et purus. Nam sit amet nulla sed est faucibus egestas. Sed
+        varius tellus varius odio maximus efficitur. Cras consectetur lacus et
+        nibh malesuada facilisis. Donec sagittis sollicitudin sapien.</p>
+</body>
+
+</html>
